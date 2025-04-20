@@ -1,0 +1,9 @@
+<nav class="admin-sidebar" style="height: 100%;">
+    <h4>User Dashboard</h4>
+      <ul>
+        <li><a [routerLink]="['/user/record']" [queryParams]="{ memberEmail: memberEmail }">Records <i class="fas fa-users"></i></a></li>
+        <li><a [routerLink]="['/user/book']">Books <i class="fas fa-book"></i></a></li>
+        <li><a (click)="logout()"> Logout <i class="fa-solid fa-right-from-bracket"></i></a></li>
+      </ul>
+  </nav>
+    
