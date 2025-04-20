@@ -28,3 +28,16 @@ A full-stack library management system designed to streamline the management of 
 	•	Password: user123@
 
 #### Users can register for a new account via the registration page.
+
+### Setup Instructions
+
+#### Prerequisites
+• .NET SDK (version compatible with the project)
+• Node.js and npm (for Angular frontend)
+• Angular CLI
+
+#### Run the API
+dotnet run
+
+#### Run the Angular application:
+ng serve
