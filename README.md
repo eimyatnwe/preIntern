@@ -46,24 +46,33 @@ ng serve
 
 #### Authentication
 • POST /api/auth/login: 
- - Authenticate user and return JWT.
+Authenticate user and return JWT.
+
 • POST /api/auth/register:
- - Register a new user.
+Register a new user.
 
 #### Books
 • GET /api/books: 
-- Retrieve a list of all books.
+Retrieve a list of all books.
+
 • GET /api/books/{id}:
-- Retrieve details of a specific book.
+Retrieve details of a specific book.
+
+• GET /api/books/{category}:
+Retrieve details of a specific book.
+
 • POST /api/books:
-- Add a new book (Admin only).
+Add a new book (Admin only).
+
 • PUT /api/books/{id}:
-- Update book information (Admin only).
+Update book information (Admin only).
+
 • DELETE /api/books/{id}:
-- Delete a book (Admin only).
+Delete a book (Admin only).
 
 #### Borrowing
 • POST /api/borrowRecord: 
-- Borrow a book.
+Borrow a book.
+
 • GET /api/borrowRecord:
-- Retrieve borrowed records.
+Retrieve borrowed records.
